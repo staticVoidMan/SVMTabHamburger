@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2045BC31CC8E13B008EA1D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045BC21CC8E13B008EA1D7 /* main.m */; };
+		F2045BC61CC8E13B008EA1D7 /* SVMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045BC51CC8E13B008EA1D7 /* SVMAppDelegate.m */; };
+		F2045BCC1CC8E13B008EA1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2045BCA1CC8E13B008EA1D7 /* Main.storyboard */; };
+		F2045BCE1CC8E13B008EA1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2045BCD1CC8E13B008EA1D7 /* Assets.xcassets */; };
+		F2045BD11CC8E13B008EA1D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2045BCF1CC8E13B008EA1D7 /* LaunchScreen.storyboard */; };
+		F2045C181CC8E2B4008EA1D7 /* TBHLeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C011CC8E2B4008EA1D7 /* TBHLeftMenuVC.m */; };
+		F2045C191CC8E2B4008EA1D7 /* TBHRightMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C041CC8E2B4008EA1D7 /* TBHRightMenuVC.m */; };
+		F2045C1A1CC8E2B4008EA1D7 /* TBHTabHamburgerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C071CC8E2B4008EA1D7 /* TBHTabHamburgerVC.m */; };
+		F2045C1B1CC8E2B4008EA1D7 /* TBHTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C091CC8E2B4008EA1D7 /* TBHTabVC.m */; };
+		F2045C281CC8E3C1008EA1D7 /* SVMFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C1E1CC8E3C1008EA1D7 /* SVMFirstVC.m */; };
+		F2045C291CC8E3C1008EA1D7 /* SVMFourthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C211CC8E3C1008EA1D7 /* SVMFourthVC.m */; };
+		F2045C2A1CC8E3C1008EA1D7 /* SVMSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C241CC8E3C1008EA1D7 /* SVMSecondVC.m */; };
+		F2045C2B1CC8E3C1008EA1D7 /* SVMThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C271CC8E3C1008EA1D7 /* SVMThirdVC.m */; };
+		F2045C301CC8E865008EA1D7 /* TBHSharedSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C2F1CC8E865008EA1D7 /* TBHSharedSettings.m */; };
+		F2045C331CC8EC22008EA1D7 /* TBHEmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C321CC8EC22008EA1D7 /* TBHEmptySegue.m */; };
+		F2045C481CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C381CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorFade.m */; };
+		F2045C491CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C3A1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScale.m */; };
+		F2045C4A1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C3C1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		F2045C4B1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C3E1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		F2045C4C1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C401CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		F2045C4D1CC8F18D008EA1D7 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F2045C421CC8F18D008EA1D7 /* menu-button.png */; };
+		F2045C4E1CC8F18D008EA1D7 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2045C431CC8F18D008EA1D7 /* menu-button@2x.png */; };
+		F2045C4F1CC8F18D008EA1D7 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2045C441CC8F18D008EA1D7 /* License.txt */; };
+		F2045C501CC8F18D008EA1D7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F2045C451CC8F18D008EA1D7 /* README.md */; };
+		F2045C511CC8F18D008EA1D7 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2045C471CC8F18D008EA1D7 /* SlideNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2045BBE1CC8E13B008EA1D7 /* SVMTabHamburger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVMTabHamburger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2045BC21CC8E13B008EA1D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2045BC41CC8E13B008EA1D7 /* SVMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVMAppDelegate.h; sourceTree = "<group>"; };
+		F2045BC51CC8E13B008EA1D7 /* SVMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVMAppDelegate.m; sourceTree = "<group>"; };
+		F2045BCB1CC8E13B008EA1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2045BCD1CC8E13B008EA1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2045BD01CC8E13B008EA1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2045BD21CC8E13B008EA1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2045C001CC8E2B4008EA1D7 /* TBHLeftMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHLeftMenuVC.h; sourceTree = "<group>"; };
+		F2045C011CC8E2B4008EA1D7 /* TBHLeftMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHLeftMenuVC.m; sourceTree = "<group>"; };
+		F2045C031CC8E2B4008EA1D7 /* TBHRightMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHRightMenuVC.h; sourceTree = "<group>"; };
+		F2045C041CC8E2B4008EA1D7 /* TBHRightMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHRightMenuVC.m; sourceTree = "<group>"; };
+		F2045C061CC8E2B4008EA1D7 /* TBHTabHamburgerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHTabHamburgerVC.h; sourceTree = "<group>"; };
+		F2045C071CC8E2B4008EA1D7 /* TBHTabHamburgerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHTabHamburgerVC.m; sourceTree = "<group>"; };
+		F2045C081CC8E2B4008EA1D7 /* TBHTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHTabVC.h; sourceTree = "<group>"; };
+		F2045C091CC8E2B4008EA1D7 /* TBHTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHTabVC.m; sourceTree = "<group>"; };
+		F2045C1D1CC8E3C1008EA1D7 /* SVMFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMFirstVC.h; sourceTree = "<group>"; };
+		F2045C1E1CC8E3C1008EA1D7 /* SVMFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMFirstVC.m; sourceTree = "<group>"; };
+		F2045C201CC8E3C1008EA1D7 /* SVMFourthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMFourthVC.h; sourceTree = "<group>"; };
+		F2045C211CC8E3C1008EA1D7 /* SVMFourthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMFourthVC.m; sourceTree = "<group>"; };
+		F2045C231CC8E3C1008EA1D7 /* SVMSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMSecondVC.h; sourceTree = "<group>"; };
+		F2045C241CC8E3C1008EA1D7 /* SVMSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMSecondVC.m; sourceTree = "<group>"; };
+		F2045C261CC8E3C1008EA1D7 /* SVMThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMThirdVC.h; sourceTree = "<group>"; };
+		F2045C271CC8E3C1008EA1D7 /* SVMThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMThirdVC.m; sourceTree = "<group>"; };
+		F2045C2C1CC8E5F8008EA1D7 /* TBHCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBHCommon.h; sourceTree = "<group>"; };
+		F2045C2E1CC8E865008EA1D7 /* TBHSharedSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHSharedSettings.h; sourceTree = "<group>"; };
+		F2045C2F1CC8E865008EA1D7 /* TBHSharedSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHSharedSettings.m; sourceTree = "<group>"; };
+		F2045C311CC8EC22008EA1D7 /* TBHEmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHEmptySegue.h; sourceTree = "<group>"; };
+		F2045C321CC8EC22008EA1D7 /* TBHEmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHEmptySegue.m; sourceTree = "<group>"; };
+		F2045C361CC8F18D008EA1D7 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		F2045C371CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		F2045C381CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		F2045C391CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		F2045C3A1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		F2045C3B1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		F2045C3C1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		F2045C3D1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		F2045C3E1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		F2045C3F1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		F2045C401CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		F2045C421CC8F18D008EA1D7 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		F2045C431CC8F18D008EA1D7 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		F2045C441CC8F18D008EA1D7 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		F2045C451CC8F18D008EA1D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F2045C461CC8F18D008EA1D7 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		F2045C471CC8F18D008EA1D7 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2045BBB1CC8E13B008EA1D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2045BB51CC8E13B008EA1D7 = {
+			isa = PBXGroup;
+			children = (
+				F2045BC01CC8E13B008EA1D7 /* SVMTabHamburger */,
+				F2045BBF1CC8E13B008EA1D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2045BBF1CC8E13B008EA1D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2045BBE1CC8E13B008EA1D7 /* SVMTabHamburger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2045BC01CC8E13B008EA1D7 /* SVMTabHamburger */ = {
+			isa = PBXGroup;
+			children = (
+				F2045BC41CC8E13B008EA1D7 /* SVMAppDelegate.h */,
+				F2045BC51CC8E13B008EA1D7 /* SVMAppDelegate.m */,
+				F2045BCA1CC8E13B008EA1D7 /* Main.storyboard */,
+				F2045BED1CC8E2B4008EA1D7 /* Example Classes */,
+				F2045BFC1CC8E2B4008EA1D7 /* Source */,
+				F2045BCD1CC8E13B008EA1D7 /* Assets.xcassets */,
+				F2045BCF1CC8E13B008EA1D7 /* LaunchScreen.storyboard */,
+				F2045BD21CC8E13B008EA1D7 /* Info.plist */,
+				F2045BC11CC8E13B008EA1D7 /* Supporting Files */,
+			);
+			path = SVMTabHamburger;
+			sourceTree = "<group>";
+		};
+		F2045BC11CC8E13B008EA1D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2045BC21CC8E13B008EA1D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2045BED1CC8E2B4008EA1D7 /* Example Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C1C1CC8E3C1008EA1D7 /* SVMFirstVC */,
+				F2045C221CC8E3C1008EA1D7 /* SVMSecondVC */,
+				F2045C251CC8E3C1008EA1D7 /* SVMThirdVC */,
+				F2045C1F1CC8E3C1008EA1D7 /* SVMFourthVC */,
+			);
+			path = "Example Classes";
+			sourceTree = "<group>";
+		};
+		F2045BFC1CC8E2B4008EA1D7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C341CC8F18D008EA1D7 /* iOS-Slide-Menu */,
+				F2045C2C1CC8E5F8008EA1D7 /* TBHCommon.h */,
+				F2045C2D1CC8E85A008EA1D7 /* TBHSharedSettings */,
+				F2045C051CC8E2B4008EA1D7 /* TBHTabHamburgerVC */,
+				F2045BFF1CC8E2B4008EA1D7 /* TBHLeftMenuVC */,
+				F2045C021CC8E2B4008EA1D7 /* TBHRightMenuVC */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F2045BFF1CC8E2B4008EA1D7 /* TBHLeftMenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C001CC8E2B4008EA1D7 /* TBHLeftMenuVC.h */,
+				F2045C011CC8E2B4008EA1D7 /* TBHLeftMenuVC.m */,
+			);
+			path = TBHLeftMenuVC;
+			sourceTree = "<group>";
+		};
+		F2045C021CC8E2B4008EA1D7 /* TBHRightMenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C031CC8E2B4008EA1D7 /* TBHRightMenuVC.h */,
+				F2045C041CC8E2B4008EA1D7 /* TBHRightMenuVC.m */,
+			);
+			path = TBHRightMenuVC;
+			sourceTree = "<group>";
+		};
+		F2045C051CC8E2B4008EA1D7 /* TBHTabHamburgerVC */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C061CC8E2B4008EA1D7 /* TBHTabHamburgerVC.h */,
+				F2045C071CC8E2B4008EA1D7 /* TBHTabHamburgerVC.m */,
+				F2045C081CC8E2B4008EA1D7 /* TBHTabVC.h */,
+				F2045C091CC8E2B4008EA1D7 /* TBHTabVC.m */,
+				F2045C311CC8EC22008EA1D7 /* TBHEmptySegue.h */,
+				F2045C321CC8EC22008EA1D7 /* TBHEmptySegue.m */,
+			);
+			path = TBHTabHamburgerVC;
+			sourceTree = "<group>";
+		};
+		F2045C1C1CC8E3C1008EA1D7 /* SVMFirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C1D1CC8E3C1008EA1D7 /* SVMFirstVC.h */,
+				F2045C1E1CC8E3C1008EA1D7 /* SVMFirstVC.m */,
+			);
+			path = SVMFirstVC;
+			sourceTree = "<group>";
+		};
+		F2045C1F1CC8E3C1008EA1D7 /* SVMFourthVC */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C201CC8E3C1008EA1D7 /* SVMFourthVC.h */,
+				F2045C211CC8E3C1008EA1D7 /* SVMFourthVC.m */,
+			);
+			path = SVMFourthVC;
+			sourceTree = "<group>";
+		};
+		F2045C221CC8E3C1008EA1D7 /* SVMSecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C231CC8E3C1008EA1D7 /* SVMSecondVC.h */,
+				F2045C241CC8E3C1008EA1D7 /* SVMSecondVC.m */,
+			);
+			path = SVMSecondVC;
+			sourceTree = "<group>";
+		};
+		F2045C251CC8E3C1008EA1D7 /* SVMThirdVC */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C261CC8E3C1008EA1D7 /* SVMThirdVC.h */,
+				F2045C271CC8E3C1008EA1D7 /* SVMThirdVC.m */,
+			);
+			path = SVMThirdVC;
+			sourceTree = "<group>";
+		};
+		F2045C2D1CC8E85A008EA1D7 /* TBHSharedSettings */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C2E1CC8E865008EA1D7 /* TBHSharedSettings.h */,
+				F2045C2F1CC8E865008EA1D7 /* TBHSharedSettings.m */,
+			);
+			path = TBHSharedSettings;
+			sourceTree = "<group>";
+		};
+		F2045C341CC8F18D008EA1D7 /* iOS-Slide-Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C351CC8F18D008EA1D7 /* Animations */,
+				F2045C411CC8F18D008EA1D7 /* Assets */,
+				F2045C441CC8F18D008EA1D7 /* License.txt */,
+				F2045C451CC8F18D008EA1D7 /* README.md */,
+				F2045C461CC8F18D008EA1D7 /* SlideNavigationController.h */,
+				F2045C471CC8F18D008EA1D7 /* SlideNavigationController.m */,
+			);
+			path = "iOS-Slide-Menu";
+			sourceTree = "<group>";
+		};
+		F2045C351CC8F18D008EA1D7 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C361CC8F18D008EA1D7 /* SlideNavigationContorllerAnimator.h */,
+				F2045C371CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorFade.h */,
+				F2045C381CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorFade.m */,
+				F2045C391CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScale.h */,
+				F2045C3A1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScale.m */,
+				F2045C3B1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				F2045C3C1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				F2045C3D1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlide.h */,
+				F2045C3E1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlide.m */,
+				F2045C3F1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				F2045C401CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		F2045C411CC8F18D008EA1D7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F2045C421CC8F18D008EA1D7 /* menu-button.png */,
+				F2045C431CC8F18D008EA1D7 /* menu-button@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2045BBD1CC8E13B008EA1D7 /* SVMTabHamburger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2045BD51CC8E13B008EA1D7 /* Build configuration list for PBXNativeTarget "SVMTabHamburger" */;
+			buildPhases = (
+				F2045BBA1CC8E13B008EA1D7 /* Sources */,
+				F2045BBB1CC8E13B008EA1D7 /* Frameworks */,
+				F2045BBC1CC8E13B008EA1D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVMTabHamburger;
+			productName = SVMTabHamburger;
+			productReference = F2045BBE1CC8E13B008EA1D7 /* SVMTabHamburger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2045BB61CC8E13B008EA1D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SVM;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = staticVoidMan;
+				TargetAttributes = {
+					F2045BBD1CC8E13B008EA1D7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F2045BB91CC8E13B008EA1D7 /* Build configuration list for PBXProject "SVMTabHamburger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2045BB51CC8E13B008EA1D7;
+			productRefGroup = F2045BBF1CC8E13B008EA1D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2045BBD1CC8E13B008EA1D7 /* SVMTabHamburger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2045BBC1CC8E13B008EA1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2045C4D1CC8F18D008EA1D7 /* menu-button.png in Resources */,
+				F2045BD11CC8E13B008EA1D7 /* LaunchScreen.storyboard in Resources */,
+				F2045C4F1CC8F18D008EA1D7 /* License.txt in Resources */,
+				F2045BCE1CC8E13B008EA1D7 /* Assets.xcassets in Resources */,
+				F2045C4E1CC8F18D008EA1D7 /* menu-button@2x.png in Resources */,
+				F2045BCC1CC8E13B008EA1D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2045BBA1CC8E13B008EA1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2045C2A1CC8E3C1008EA1D7 /* SVMSecondVC.m in Sources */,
+				F2045C511CC8F18D008EA1D7 /* SlideNavigationController.m in Sources */,
+				F2045BC61CC8E13B008EA1D7 /* SVMAppDelegate.m in Sources */,
+				F2045BC31CC8E13B008EA1D7 /* main.m in Sources */,
+				F2045C481CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				F2045C4B1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				F2045C1A1CC8E2B4008EA1D7 /* TBHTabHamburgerVC.m in Sources */,
+				F2045C501CC8F18D008EA1D7 /* README.md in Sources */,
+				F2045C331CC8EC22008EA1D7 /* TBHEmptySegue.m in Sources */,
+				F2045C2B1CC8E3C1008EA1D7 /* SVMThirdVC.m in Sources */,
+				F2045C181CC8E2B4008EA1D7 /* TBHLeftMenuVC.m in Sources */,
+				F2045C301CC8E865008EA1D7 /* TBHSharedSettings.m in Sources */,
+				F2045C1B1CC8E2B4008EA1D7 /* TBHTabVC.m in Sources */,
+				F2045C4A1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				F2045C191CC8E2B4008EA1D7 /* TBHRightMenuVC.m in Sources */,
+				F2045C291CC8E3C1008EA1D7 /* SVMFourthVC.m in Sources */,
+				F2045C281CC8E3C1008EA1D7 /* SVMFirstVC.m in Sources */,
+				F2045C4C1CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				F2045C491CC8F18D008EA1D7 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2045BCA1CC8E13B008EA1D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2045BCB1CC8E13B008EA1D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2045BCF1CC8E13B008EA1D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2045BD01CC8E13B008EA1D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2045BD31CC8E13B008EA1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2045BD41CC8E13B008EA1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2045BD61CC8E13B008EA1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SVMTabHamburger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.svmLogics.SVMTabHamburger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2045BD71CC8E13B008EA1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SVMTabHamburger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.svmLogics.SVMTabHamburger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2045BB91CC8E13B008EA1D7 /* Build configuration list for PBXProject "SVMTabHamburger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2045BD31CC8E13B008EA1D7 /* Debug */,
+				F2045BD41CC8E13B008EA1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2045BD51CC8E13B008EA1D7 /* Build configuration list for PBXNativeTarget "SVMTabHamburger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2045BD61CC8E13B008EA1D7 /* Debug */,
+				F2045BD71CC8E13B008EA1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2045BB61CC8E13B008EA1D7 /* Project object */;
+}
